@@ -1,4 +1,4 @@
-module github.com/yusukebe/gh-markdown-preview
+module github.com/jgwill/gh-jgwill-mdp
 
 go 1.17
 

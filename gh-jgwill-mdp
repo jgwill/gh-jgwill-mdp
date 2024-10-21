@@ -6,7 +6,7 @@ tag="v1.8.0"
 
 extension_path="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 tag_path="${extension_path}/dist/${tag}"
-exe="gh-markdown-preview"
+exe="gh-jgwill-mdp"
 platform=""
 extension=""
 
