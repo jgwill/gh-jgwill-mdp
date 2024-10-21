@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-repo="yusukebe/gh-markdown-preview"
+repo="jgwill/gh-jgwill-mdp"
 tag="v1.8.0"
 
 extension_path="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
