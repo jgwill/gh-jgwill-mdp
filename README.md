@@ -1,8 +1,8 @@
-# gh markdown-preview
+# gh jgwill-mdp
 
-GitHub CLI extension to preview Markdown looks like GitHub :octocat:
+GitHub CLI extension JGWIll's to preview Markdown looks like GitHub :octocat:
 
-**gh markdown-preview** is a [GitHub CLI](https://cli.github.com) extension to preview your markdown such as **README.md**. The `gh markdown-preview` command start a local web server to serve the markdown document. **gh markdown-preview** renders the HTML got from GitHub official markdown API and uses the CSS extracted from GitHub web site. The styles are almost the same!
+**gh jgwill-mdp** is a [GitHub CLI](https://cli.github.com) extension to preview your markdown such as **README.md**. The `gh markdown-preview` command start a local web server to serve the markdown document. **gh markdown-preview** renders the HTML got from GitHub official markdown API and uses the CSS extracted from GitHub web site. The styles are almost the same!
 
 You can see rendered README before uploading to GitHub!
 
@@ -28,13 +28,13 @@ Live reloading:
 ## Installation
 
 ```
-gh extension install yusukebe/gh-markdown-preview
+gh extension install jgwill/gh-jgwill-mdp
 ```
 
 Upgrade:
 
 ```
-gh extension upgrade markdown-preview
+gh extension upgrade jgwill-mdp
 ```
 
 ## Usage
@@ -42,13 +42,13 @@ gh extension upgrade markdown-preview
 The usage:
 
 ```
-gh markdown-preview README.md
+gh jgwill-mdp README.md
 ```
 
 Or this command will detect README file in the directory automatically.
 
 ```
-gh markdown-preview
+gh jgwill-mdp
 ```
 
 Then access the local web server such as `http://localhost:3333` with Chrome, Firefox, or Safari.
@@ -76,6 +76,7 @@ Available options:
 ## Author
 
 Yusuke Wada <http://github.com/yusukebe>
+Forked by JGWIll 
 
 ## License
 
